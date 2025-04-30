@@ -218,7 +218,7 @@ From our analysis of the birthday paradox, we observed the following:
 
 ## Refrences
 
-* Government of Malaysia Official Open Data Portal (2023). [Dataset] https://data.gov.my/data-caatlogue/births
+* Government of Malaysia Official Open Data Portal (2023). [Dataset] https://data.gov.my/data-catalogue/births
 
 
 

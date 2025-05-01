@@ -24,6 +24,7 @@ According to figure 1, which depicts the probability of at least two guests in a
 ## Part 2. Probability Using Monte-Carlo Simulation
 
 The probability that all $N$ people have unique birthdays
+
 $$
 P(\text{no shared birthdays}) = \frac{365}{365} \times \frac{364}{365} \times \frac{363}{365} \times ...\times \frac{365-N-1}{365}
 $$
@@ -33,6 +34,7 @@ $$
 $$
 
 The probability that at least two people share a birthday:
+
 $$
 P(\text{at least 2 people share birthdays}) = 1 - P(\text{no shared birthdays})
 $$
@@ -86,6 +88,7 @@ The minimum number of $N$ which have at least 2 guests to have birth-mates:
 min_N = ceiling(min(results$N[results$Analytical_EY >= 1]))
 cat("The minimum number of guests where E(Y) >= 1 is:", min_N)
 ```
+
 The minimum number of guests where E(Y) >= 1 is: 20
 
 The result is not surprising because of the following reasons:
